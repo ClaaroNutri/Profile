@@ -3,6 +3,8 @@ body {
     margin:0;
     padding:0;
     scroll-behavior: smooth;
+    background-image: url(imagenes/cool-background\ \(1\).png);
+    
 }
 
 .nombre {opacity: 0;
@@ -31,7 +33,9 @@ body {
 
 h3 span {color:antiquewhite;
     letter-spacing: 0.35em;
+    text-shadow: 2px 3px #999;
 }
+h3 {text-shadow: 2px 3px #707070;}
 
 .uno {margin-top: 250px;
     color: azure;
@@ -46,7 +50,9 @@ h3 span {color:antiquewhite;
     justify-content: center;
     align-items: center;
     margin-bottom: 200px;
+    
 }
+
 
 .dos {margin-top: 80px;
     display: flex;
@@ -81,12 +87,18 @@ h4:hover {
     margin-bottom: 60px;
 
 }
-.habilidades:hover {color: bisque;}
+.habilidades:hover {color: bisque;
+    font-weight: bolder;
+    font-style: italic;
+}
 
 
 
 .hab {padding-top: 20px;
-    margin-bottom: 50px;}
+    margin-bottom: 50px;
+    animation-delay: 6.7s;
+    animation-duration: 6s;
+}
 
 .skills {display: flex;
         flex-direction: row;
@@ -116,9 +128,16 @@ h4:hover {
     box-shadow: 3px 3px bisque;
 }
 
-.proyectos:hover {color:bisque}
+.proyectos:hover {color:bisque;
+}
 
-.proTitulo {margin-bottom: 30px;}
+.proTitulo {margin-bottom: 30px;
+    animation-delay: 7s;
+    animation-duration: 5s
+}
+.proTitulo:hover {font-weight: bolder;
+    font-style: italic;
+}
 
 .proyectos {display:flex;
     justify-content:center;
@@ -157,6 +176,8 @@ h4:hover {
     padding:15px;
     height: 40%;
     text-align: center;
+    text-shadow: 1px 2px #999;
+    background-color: rgb(128, 137, 238);
     border: 2px solid rgb(77, 91, 245);
     box-shadow: 1px 2px azure;}
 
@@ -211,7 +232,7 @@ h5 {color: azure;
     height: 40px;
     width: 100%;
     margin-top: 30px;
-
+    background-image: url(imagenes/cool-background\ \(1\).png);
 }
 
 @media (max-widht:460px){
