@@ -75,6 +75,7 @@ h3 {text-shadow: 2px 3px #707070;}
 
 .sobreMi {margin-top: 25px;
     margin-bottom: 25px;
+    width: 50%;
 }
 
 h4:hover {
@@ -235,7 +236,30 @@ h5 {color: azure;
     background-image: url(imagenes/cool-background\ \(1\).png);
 }
 
-@media (max-widht:460px){
+@media (max-width:460px){
+    .sobreMi {width: 100%;
+        padding-bottom: 440px;
+        margin-bottom: 35px;
+    }
+}
 
-    .sobreMi~ p {width: 100%;}
+@media (max-width:460px){
+
+    .barra {max-width: 50%;
+        column-gap: 17px;
+    }
+}
+
+@media (max-width:460px){
+    .avatar {max-width: 70%;
+        margin-top: 440px;
+        padding-top: 50px;
+    
+}
+}
+
+@media (max-width:460px){
+    .skills {column-gap: 3px;
+        row-gap:15px;
+    }
 }
