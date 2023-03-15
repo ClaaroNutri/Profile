@@ -4,6 +4,7 @@ body {
     padding:0;
     scroll-behavior: smooth;
     background-image: url(imagenes/cool-background\ \(1\).png);
+    max-width: 100%vw;
     
 }
 
@@ -14,8 +15,8 @@ body {
     font-size: large;
     font-weight: bold;
 
-
 }
+
 .efecto {
     filter: blur(15px);
     
@@ -59,14 +60,12 @@ h3 {text-shadow: 2px 3px #707070;}
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
 }
-
 .dos {background-color: azure;
     margin-top: 270px;
     height: 480px;
 }
-
 
 .avatar {border-radius: 50%;
     margin-bottom: 8px;
@@ -76,6 +75,9 @@ h3 {text-shadow: 2px 3px #707070;}
 .sobreMi {margin-top: 25px;
     margin-bottom: 25px;
     width: 50%;
+   
+}
+#about {text-align: center;
 }
 
 h4:hover {
@@ -246,7 +248,9 @@ h5 {color: azure;
 @media (max-width:460px){
 
     .barra {max-width: 50%;
-        column-gap: 17px;
+        column-gap: 7%;
+        row-gap: 7%;
+        font-size: small;
     }
 }
 
@@ -261,5 +265,21 @@ h5 {color: azure;
 @media (max-width:460px){
     .skills {column-gap: 3px;
         row-gap:15px;
+        
     }
 }
+
+@media (max-width:460px){
+    .pri {column-gap: 3px;
+        row-gap:15px;
+        width: 60%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        box-shadow: none;
+    }
+}
+.contacto {margin-top: 95px;}
