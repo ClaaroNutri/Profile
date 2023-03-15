@@ -64,7 +64,7 @@ h3 {text-shadow: 2px 3px #707070;}
 }
 .dos {background-color: azure;
     margin-top: 270px;
-    height: 480px;
+    height: 500px;
 }
 
 .avatar {border-radius: 50%;
@@ -238,23 +238,29 @@ h5 {color: azure;
     background-image: url(imagenes/cool-background\ \(1\).png);
 }
 
-@media (max-width:460px){
+@media  (max-width:480px){
     .sobreMi {width: 100%;
         padding-bottom: 440px;
         margin-bottom: 35px;
     }
-}
+} 
 
-@media (max-width:460px){
+@media  (max-width:480px){
+    .nombre {font-size: x-small;
+    }
+} 
 
-    .barra {max-width: 50%;
-        column-gap: 7%;
-        row-gap: 7%;
+@media (max-width:480px){
+
+    .barra {max-width: 40%;
+        column-gap: 10%;
+        row-gap: 10%;
         font-size: small;
+        position:relative left;
     }
 }
 
-@media (max-width:460px){
+@media (max-width:480px){
     .avatar {max-width: 70%;
         margin-top: 440px;
         padding-top: 50px;
@@ -262,14 +268,14 @@ h5 {color: azure;
 }
 }
 
-@media (max-width:460px){
+@media (max-width:480px){
     .skills {column-gap: 3px;
         row-gap:15px;
         
     }
 }
 
-@media (max-width:460px){
+@media (max-width:480px){
     .pri {column-gap: 3px;
         row-gap:15px;
         width: 60%;
@@ -282,4 +288,7 @@ h5 {color: azure;
         box-shadow: none;
     }
 }
-.contacto {margin-top: 95px;}
+@media (max-width:480px){
+    .contacto {margin-top: 95px;
+    }
+}
