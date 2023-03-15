@@ -253,10 +253,14 @@ h5 {color: azure;
 @media (max-width:480px){
 
     .barra {max-width: 40%;
-        column-gap: 10%;
-        row-gap: 10%;
+        column-gap: 20% !important;
+        row-gap: 15%;
+        flex-direction: column;
         font-size: small;
-        position:relative left;
+        margin-left: 4px;
+        margin-top: 3px;
+
+        
     }
 }
 
